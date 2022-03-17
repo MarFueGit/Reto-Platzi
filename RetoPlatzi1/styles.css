@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Montserrat', sans-serif; 
+
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background: #0C1633; 
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: baseline; 
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+    align-items: center;
+
+}
+.logo{
+   margin-left: -100px;
+   margin-bottom: 14px;
+}
+main{
+    padding: 40px 40px 120px 120px;
+}
+.section-one {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+#left-section{
+    width: 50%;
+}
+h1{
+    font-size: 4rem;
+    font-weight: 700 bold;
+    font-family: sans-serif;
+    
+}
+#dates{
+    font-size: 1.4em;
+    color: #98CA3F;
+  
+}
+input{
+	width: 310px;
+	height: 40px;
+	border:1px solid #C4C4C4;
+	outline: none;
+    align-items: center;
+    background: #FFFFFF;
+    font-size: 18px;
+}
+button{
+	width: 150px;
+	height: 40px;
+	border-radius: 10px;
+	background-color:  #98CA3F;;	
+	color: white;
+	font-weight: 500;
+	cursor: pointer;
+    border:none;
+    font-size: 20px;
+    margin-left: 20px;
+}
+button:hover{
+    color: black;
+}
+.right-section{
+	width: 50%;
+	padding-left: 300px;
+}
+h2{ 
+    font-size: 3em;
+	font-weight:  bolder 700; 
+    font-style: normal;
+    font-family:  sans-serif;
+ 
+}
+section p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 30px;
+    font-family: 'Montserrat';
+}
+.card-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    
+   
+
+}
+.card{
+    width: 300px;
+    height: 160px;
+    background: #0C1633;
+    color: white;
+    font-size: 30px;
+    font-family:  sans-serif; 
+    line-height: 10px;
+    padding-left: 40px;
+    font-style: normal;
+    border-radius: 10px;
+    
+
+}
+.course-section{
+            display: flex;
+            width: 100%;
+            height: auto;
+            justify-content: space-between;
+            justify-items: center;
+}   
+.card-courses{
+    width: 350px;
+    height: 180px;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif; 
+    line-height: 42px;
+    padding-left: 40px;
+    font-style: normal;
+    border-radius: 10px;
+   
+
+   
+}
+#green{
+    background: #98CA3F;
+}
+#blue{
+    background:  #17A2F8;;
+}
+#pink{
+background: #FF8080;
+   
+}   
+
+footer{
+    width: 100%;
+    height: 360px;
+    background-color: #0C1633;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif; 
+    line-height: 20px;
+    font-weight: 300;
+    font-style: normal;
+    
+
+}
+.footer-logo{
+    padding-top: 10px;
+
+
+}
+footer p{
+    padding-left: 50px;
+    font-family: 'Montserrat', sans-serif; 
+    font-style: normal;
+}
+ul{
+    list-style: none;
+    line-height: 30px;
+    
+}
+li{
+    padding: 10px;
+    cursor: pointer;
+}
