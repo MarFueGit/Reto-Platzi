@@ -1,0 +1,13 @@
+.cabecera {
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+}
+
+
+.navbar {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+   
+}

@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 body{
     font-family:'Montserrat', sans-serif; 
 
@@ -25,6 +26,7 @@ nav{
 }
 main{
     padding: 40px 40px 120px 120px;
+    margin: 0 auto;
 }
 .section-one {
     width: 100%;
